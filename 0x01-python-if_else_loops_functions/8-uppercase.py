@@ -7,5 +7,5 @@ def uppercase(str):
         if c not in special_chars:
             if ascii >= 97:
                 ascii = ascii - 32
-         print("{0:c}".format(ascii), end="")
+        print("{0:c}".format(ascii), end="")
     print()
